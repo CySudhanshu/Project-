@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+/* ----------------------------UpperHeader-------------- */
+.vl {
+    border-left: 1px solid black;
+    height: 2px;
+    opacity: 30%;
+
+}
+
+
+/* ----------------------------Header-------------- */
+
+.img-container-1 {
+    background-image: url(Images/pic1.jpg);
+    cursor: pointer;
+    /* min-height: 100vh; */
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.img-container-2 {
+    background-image: url(Images/pic2.avif);
+    /* min-height: 100vh; */
+    width: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.img-container-3 {
+    background-image: url(Images/pic3.avif);
+    /* min-height: 100vh; */
+    width: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.container-content {
+    text-align: center;
+    margin-top: 50%;
+    color: wheat;
+    font-weight: 200;
+
+}
+
+.dullpara {
+    opacity: 50%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* ---------------------Header dropdown---------------- */
+
+.dropdown-menu li{
+    padding: 5px;
+    margin: 5px;
+   
+
+}
+.shop p{
+  font-weight: 200;
+}
+.shop ul li{
+    padding: 5px;
+    margin: 5px;
+}
+/* <!-- -----------------------------------Collection-------------------- --> */
+.collection-img-1 {
+    background-image: url(Images/Begs.jpeg);
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+
+}
+
+.offer {
+    border: 1px solid rgb(214, 101, 101);
+    background-color: rgb(214, 101, 101);
+    border-radius: 50%;
+    padding: 20px;
+    color: wheat;
+    font-size: 20px;
+
+
+
+}
+.Begs-collection{
+    margin-top: 170px;
+}
+.Men-collection{
+    margin-top: 100px;
+}
+
+.collection-img-2 {
+    background-image: url(Images/printed.jpg);
+    padding: 10px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.collection-img-3 {
+    background-image: url(Images/Basic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 10px;
+}
+
+.collection-img-4 {
+    background-image: url(Images/sweatshirts.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 10px;
+}
+
+/* ----------------------Top Sellers------------------------  */
+
+/* ------------------------Timer--------------------------- */
+.timer {
+    background-image: url(Images/Timer.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.timer-content {
+    padding: 200px;
+}
+
+/* ---------------------------------------Image-gallary---------------------- */
+
+
+/* ------------------Footer----------------- */
